@@ -1,0 +1,6 @@
+.app {
+    align-items: center;
+    display: block;
+    height: fit-content;
+    /* flex-direction: column; */
+}

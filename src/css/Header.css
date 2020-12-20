@@ -1,0 +1,71 @@
+.header-visibility {
+    background-color: rgb(160, 5, 5);
+    color: red;
+    width: 100%;
+    height: 100px;
+    outline: none;
+}
+.react-search-field{
+    border: none; 
+    display: inline; 
+    justify-content: last baseline; 
+    height: 40px;
+    margin: 10px;    
+    background-color: rgb(146, 4, 4);
+    outline: none;
+}
+input {
+    border: none; 
+    display: inline-block; 
+    justify-content: last baseline; 
+    height: 30px;
+    margin: 10px; 
+    margin-right: 0px;   
+    background-color:rgba(156, 13, 13, 0.973);
+    outline: none;
+    width: 80%;
+}
+button {   
+    display: inline-block; 
+    background-color:rgba(156, 13, 13, 0.973);
+    border: none;
+    width: 30px;
+    height: 32px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.search-space {
+    display: inline-flex;
+    justify-content: stretch;
+    align-items: center;
+    margin-left: auto;
+    width: 75%;
+}
+
+.header-item-align {
+    display: flex;
+    background-color: rgba(202, 8, 8, 0.973);
+    align-items: center;
+    width: 100%;
+    justify-content: normal;
+    height: 70px;
+}
+
+.anchor-style button {
+    display: flex; 
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    background-color: rgb(43, 42, 42);
+    border: none;
+    width: 7vmax;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+img {
+    width: 25px;
+    height: 21px;
+}

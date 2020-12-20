@@ -1,0 +1,33 @@
+.footer-style {
+    background-color: black;
+    text-align: center;
+    height: 100%;
+    /* color: whitesmoke; */
+}
+
+.common-footer-style {
+    display: inline-flex;
+    flex: 1;
+}
+li {
+    list-style: none;
+}
+h2 {
+    font-weight: 500;
+    font-size: medium;
+    color: whitesmoke;
+    margin: 2px;
+}
+p {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 414px){
+    .common-footer-style {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+    }
+}
